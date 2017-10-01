@@ -1,6 +1,7 @@
 Package: Rpgcli
 Title: PopGen Web Service Client
 Version: 0.1.0.9000
+Date: 2017-10-01
 Authors@R: 'Alex Hogg <the.hoglet@gmail.com> [aut, cre]'
 Description: Client for sampling population datasets using the PopGen web service.
 Depends: R (>= 3.1.0)
@@ -9,5 +10,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: xml2,
     httr,
-    uuid
+    uuid,
+    digest,
+    lubridate
 RoxygenNote: 6.0.1
